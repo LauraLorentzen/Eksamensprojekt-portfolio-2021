@@ -46,7 +46,8 @@ div.content.gallery .box .text{
 
 div.content.gallery .box .image img{
   display: block;
-  max-width: 100%;
+  max-width: 150%;
+  height: 450px;
 }
 
 div.content.about-me{
