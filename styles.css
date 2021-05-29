@@ -56,6 +56,11 @@ div.content{
   background-color: white;
 }
 
+div.content.portfolio img.portfolio-size{
+  max-height: 400px;
+  display: block;
+}
+
 div.footer{
   padding-top: 100px;
 }
