@@ -1,0 +1,61 @@
+body{
+  background-color: white;
+}
+
+a{
+  color: pink;
+  text-decoration: none;
+}
+
+div.wrapper {
+  padding: 20px 50px;
+}
+div.wrapper div.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+div.wrapper div.header div.title h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+div.wrapper div.header div.menu a {
+  color: black;
+  margin: 0 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+div.content.gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+div.content.gallery .box .text{
+  padding: 10px;
+}
+
+
+div.content.gallery .box .image img{
+  display: block;
+  max-width: 100%;
+}
+
+div.content.about-me{
+  padding: 10px;
+}
+div.content.about-me .profile-picture{
+  max-height: 150px;
+}
+
+div.content{
+  background-color: white;
+}
+
+div.footer{
+  padding-top: 100px;
+}
