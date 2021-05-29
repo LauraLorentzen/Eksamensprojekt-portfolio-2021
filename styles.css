@@ -29,6 +29,10 @@ div.wrapper div.header div.menu a {
   display: inline-block;
 }
 
+div.wrapper div.header div.menu a:hover {
+  color: #dc8609;
+}
+
 div.content.gallery {
   display: grid;
   grid-template-columns: repeat(3,1fr);
